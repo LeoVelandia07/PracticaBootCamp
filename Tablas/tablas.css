@@ -1,0 +1,37 @@
+body{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.titulo {
+    
+    text-align: center;
+    color: aliceblue;
+}
+.tables {
+    text-align: center;
+    font-size:xx-large;
+    color: aliceblue;
+}
+.link {
+    color: rgb(103, 167, 223);
+}
+
+.contenido {
+    font-size: x-large;
+}
+
+.contenido2 {
+    font-size: x-large;
+}
+
+.contenido3 {
+    font-size: x-large;
+}
+
+.favorite {
+    text-align: center;
+    color:aqua
+}
