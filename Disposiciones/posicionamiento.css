@@ -1,0 +1,49 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*Posicionamiento relative, se posiciona con relación al
+posicionamiento original */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/* Fixed me da una posición fija en relación a la pantalla */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: blue;
+    color: white;
+    z-index: 10;
+}
+
+/* absolute me posiciona el elemento con relación a un elemento
+padre, ya sea body o dentro de otro DIV se posiciona con relación a
+ese elemento padre */
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    background-color: white;
+}
+.relative.contenedor {
+    width: 400px;
+    height: 1800px;
+    background-color: aqua;
+}
+
+/* sticky me permite ajustar un objeto en la pantalla con relación
+a la página, en este caso queda anclado a la parte superior, para usar
+sticky debe darse los valores para ajustarse como: top y z-index */
+.sticky {
+    background-color: darksalmon;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
